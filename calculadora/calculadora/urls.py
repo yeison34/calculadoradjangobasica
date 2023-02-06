@@ -19,5 +19,6 @@ from app1 import views
 
 urlpatterns = [
     path('index/',views.index),
+    path('',views.index),
     path('operar/',views.operar),
 ]
